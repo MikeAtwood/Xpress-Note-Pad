@@ -7,15 +7,12 @@ const path = require("path");
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-
-app.get('/api/db', (req, res) => {
-    res.send('database');
-  });
-
 //--------- Parse data ----------//
 app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(express.static(__dirname));
 
 //--------- Sets up App Listener ---------//
-app.listen(3001, () => {
-  console.log(`API server is now on Port 3001`);  
-});
+app.listen(PORT, function() {
+  console.log("App listening on PORT: " + PORT);
+});  
