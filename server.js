@@ -1,7 +1,7 @@
 //-------- Dependencies ---------//
-const express = require("express");
 const fs = require("fs");
 const path = require("path");
+const express = require("express");
 
 //--------- Sets up Express App ---------//
 const app = express();
@@ -14,5 +14,5 @@ app.use(express.static(__dirname));
 
 //--------- Sets up App Listener ---------//
 app.listen(PORT, function() {
-  console.log("App listening on PORT: " + PORT);
+  console.log(`API server now on port ${PORT}!`);
 });  
