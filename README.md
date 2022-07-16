@@ -1,4 +1,4 @@
-## Xpress Note Pad
+# Xpress Note Pad
 
 ## Summary
 The Xpress Note Pad is a professional note taker application that allows you to take and save notes. Powered by Express.js, you can now create, view, and delete notes with ease!
