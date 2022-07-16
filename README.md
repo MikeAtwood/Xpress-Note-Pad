@@ -10,3 +10,4 @@ I WANT to be able to delete notes I've written before.
 
 SO THAT I can organize my thoughts and keep track of tasks I need to complete
 
+![Note Taker](https://user-images.githubusercontent.com/103971335/179369458-4c86ee9c-a062-4306-8a87-144875a7b6ea.gif)
